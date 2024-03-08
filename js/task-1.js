@@ -114,35 +114,35 @@
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
 
-const country = prompt(enter your country);
-let price;
+// const country = prompt(enter your country);
+// let price;
 
-switch (country.toLowerCase()) {
-  case "Chine":
-    price = 120;
-    break
+// switch (country.toLowerCase()) {
+//   case "Chine":
+//     price = 120;
+//     break
   
-  case "Chile":
-    price = 250;
-    break
+//   case "Chile":
+//     price = 250;
+//     break
   
-  case "Australia":
-    price = 170;
-    break
+//   case "Australia":
+//     price = 170;
+//     break
   
-  case "India":
-    price = 80;
-    break
+//   case "India":
+//     price = 80;
+//     break
   
-  case "Jamaica":
-    price = 120;
-    break
+//   case "Jamaica":
+//     price = 120;
+//     break
   
-  default:
-    alert("Delivery is not available in your country");
+//   default:
+//     alert("Delivery is not available in your country");
     
-}
+// }
     
-if (price !== undefined) {
-  alert(`Delivery in ${country} will cost ${price} credits`);
-}
+// if (price !== undefined) {
+//   alert(`Delivery in ${country} will cost ${price} credits`);
+// }
