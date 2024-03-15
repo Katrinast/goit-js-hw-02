@@ -78,16 +78,18 @@
 
 // console.log(values);
 
-function countTotalSalary(salaries) {
-  let totalSalary = 0;
-  const values = Object.values(salaries);
-  for (const salary of values){
-    totalSalary += salary
-  }
-  return totalSalary;
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   const values = Object.values(salaries);
+//   for (const salary of values){
+//     totalSalary += salary
+//   }
+//   return totalSalary;
 
-}
+// }
 
-console.log(countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 }));
+// console.log(countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 }));
+
+
 
 
